@@ -48,6 +48,9 @@
       "hosting-partner": "Hosting partner:",
       "copyrights": "Podkrepi.bg ©2021 All rights reserved.",
       "version": "Version"
+    },
+    "modal": {
+      "upload-image": "Upload an image"
     }
   },
   "or": "or"

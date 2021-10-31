@@ -21,6 +21,7 @@ import { CampaignResponse, CampaignFormData, CampaignInput } from 'gql/campaigns
 import { ApiErrors, isAxiosError, matchValidator } from 'common/api-errors'
 
 import CampaignTypeSelect from './CampaignTypeSelect'
+import FileUploaderModal from '../modal/FileUploaderModal'
 
 const formatString = 'yyyy-MM-dd'
 
@@ -133,6 +134,9 @@ export default function CampaignForm({ initialValues = defaults }: CampaignFormP
         initialValues={initialValues}
         validationSchema={validationSchema}>
         <Grid container spacing={3}>
+          <Grid item xs={12}>
+            <FileUploaderModal />
+          </Grid>
           <Grid item xs={12}>
             <FormTextField
               type="text"

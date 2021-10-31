@@ -35,6 +35,7 @@
     "axios-hooks": "2.7.0",
     "classnames": "2.3.1",
     "date-fns": "2.24.0",
+    "filestack-react": "4.0.1",
     "formik": "2.2.9",
     "highcharts": "9.1.0",
     "highcharts-react-official": "3.0.0",
